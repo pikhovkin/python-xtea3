@@ -1,0 +1,2 @@
+cython==3.2.3
+setuptools==80.9.0
