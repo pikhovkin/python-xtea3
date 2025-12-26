@@ -12,6 +12,7 @@ setup(
     long_description_content_type='text/markdown',
     python_requires=">=3.12,<4.0",
     ext_modules=cythonize('xtea3/xtea3.pyx'),
+    include_package_data=True,
     packages=['xtea3'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
