@@ -1,2 +1,4 @@
 cython==3.2.3
 setuptools==80.9.0
+wheel==0.46.1
+twine==6.2.0
