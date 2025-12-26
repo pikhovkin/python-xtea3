@@ -20,7 +20,7 @@ jobs:
     - name: Build package
       run: |
         python setup.py build_ext --inplace
-        python setup.py sbdist
+        python setup.py sdist
     - name: Publish package
       env:
         TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
