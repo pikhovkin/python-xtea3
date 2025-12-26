@@ -8,7 +8,7 @@ jobs:
   build-and-publish-on-pypi:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -21,7 +21,7 @@ jobs:
     - name: Build package
       run: |
         python setup.py build_ext --inplace
-        python3 setup.py bdist_wheel
+        python3 setup.py bdist_wheel -p none
     - name: Publish package
       env:
         TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
