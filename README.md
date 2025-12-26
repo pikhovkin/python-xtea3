@@ -1,6 +1,6 @@
 # python-xtea3
 
-[![GitHub Actions](https://github.com/pikhovkin/python-xtea3/actions/workflows/tests.yml/badge.svg)](https://github.com/pikhovkin/python-xtea3/actions)
+[![GitHub Actions](https://github.com/pikhovkin/python-xtea3/actions/workflows/tests.yaml/badge.svg)](https://github.com/pikhovkin/python-xtea3/actions)
 [![PyPI - Version](https://img.shields.io/pypi/v/python-xtea3.svg)](https://pypi.org/project/python-xtea3)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-xtea3.svg)](https://pypi.org/project/python-xtea3)
 [![PyPI - License](https://img.shields.io/pypi/l/python-xtea3.svg)](./LICENSE)
